@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 1.6rem;
     font-family: "Open Sans";
@@ -23,7 +27,7 @@ img {
     border-radius: 2.8rem;
 }
 
-header>p {
+.before-heading-p {
     color: #E1624F;
     text-transform: uppercase;
 
@@ -39,16 +43,16 @@ header h1 {
     color: #1B1B1B;
 }
 
-header .grid-layout {
+header .hero-grid-layout {
     display: grid;
-    grid-template-columns: 4fr 2fr;
-    gap: 2.4rem;
+    grid-template-columns: 5fr 2fr;
+    gap: 3.2rem;
 
-    margin-top: 4.8rem;
+    margin-top: 4.4rem;
 }
 
-header .grid-layout p {
-    margin-top: 4.4rem;
+header .hero-grid-layout p {
+    margin-top: 6.4rem;
     font-style: italic;
 }
 
@@ -86,6 +90,73 @@ header a span+span {
     margin-left: .8rem;
     position: absolute;
     animation: .6s linear 1s infinite alternate learnmore;
+}
+
+.divider {
+    border: 1px solid #e2e2e2;
+    margin-top: 4rem;
+}
+
+.primary-article {
+    margin-top: 6.4rem;
+}
+
+article h2 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+
+    color: #1B1B1B;
+}
+
+section+section {
+    margin-top: 7.2rem;
+    display: flex;
+    gap: 3.2rem;
+}
+
+article section img {
+    max-width: 70rem;
+    object-fit: cover;
+}
+
+article section:nth-child(even) img {
+    order: 1;
+}
+
+section div p {
+    margin-top: 8px;
+    line-height: 2.2rem;
+
+    color: #333333;
+}
+
+section div ul {
+    margin-top: 1.6rem;
+}
+
+section div ul li {
+    margin-left: 2rem;
+}
+
+.secundary-article {
+    margin-top: 4rem;
+    text-align: center;
+
+    color: #333333;
+}
+
+footer {
+    margin-top: 6.4rem;
+    text-align: center;
+}
+
+footer a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #1B1B1B;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #1B1B1B;
 }
 
 @keyframes learnmore {
