@@ -27,6 +27,11 @@ img {
     border-radius: 2.8rem;
 }
 
+.bar {
+    border: 1.5px solid #E1624F;
+    width: 5.2rem;
+}
+
 .before-heading-p {
     color: #E1624F;
     text-transform: uppercase;
@@ -52,7 +57,7 @@ header .hero-grid-layout {
 }
 
 header .hero-grid-layout p {
-    margin-top: 6.4rem;
+    margin-top: 2.4rem;
     font-style: italic;
 }
 
@@ -60,14 +65,14 @@ header a {
     position: relative;
 
     display: block;
-    margin-top: 1.6rem;
+    margin-top: 2.8rem;
     padding: 8px 1.6rem;
     width: 14.8rem;
 
     border: 2px solid #E1624F;
     color: #E1624F;
 
-    border-radius: 2.8rem;
+    border-radius: 2.4rem;
 
     font-size: 1.4rem;
     font-weight: 700;
@@ -80,7 +85,7 @@ header a {
 
 header a:hover {
     border: 2px solid #ffffff;
-    background-color: #e1624fb5;
+    background-color: #e1624fd0;
     color: #fff;
 }
 
@@ -109,6 +114,15 @@ article h2 {
     color: #1B1B1B;
 }
 
+article h3 {
+    margin-bottom: 16px;
+}
+
+article h3 span {
+    font-weight: 700;
+    color: #E1624F;
+}
+
 section+section {
     margin-top: 7.2rem;
     display: flex;
@@ -133,10 +147,12 @@ section div p {
 
 section div ul {
     margin-top: 1.6rem;
+    list-style: none;
 }
 
-section div ul li {
-    margin-left: 2rem;
+section div ul li span {
+    font-weight: bolder;
+    color: #E1624F;
 }
 
 .secundary-article {
