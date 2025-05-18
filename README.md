@@ -64,7 +64,7 @@ In the mobile version, elements are reorganized vertically, prioritizing readabi
 
 ## 🌐 Demo
 
-Access the online version: [Busa Travel Page](https://maurodiogodev.github.io/projeto-local-turistico/)
+Access the online version: [Busan Travel Page](https://maurodiogodev.github.io/projeto-local-turistico/)
 
 ## 🎯 Learnings and Challenges
 
